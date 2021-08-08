@@ -1,0 +1,216 @@
+
+     html{
+         width: 100%;
+         height: 100%;
+         
+     }
+     #logo{
+      display: grid;
+      padding: 10px;
+      width: 130px; 
+      height: 130px;
+      margin-top: auto;
+      justify-items: start;
+  }
+
+    .lowerbody {
+        display: block;
+      font-size: 1.5rem;
+
+      
+  }
+  h5{
+      color: rgb(7, 7, 7);
+  }
+  h2{
+      color: rgb(7, 7, 7);
+      padding-top: 5px;
+      font-size: smaller;
+  }
+  img {
+      height: 100vh;
+      width: 100%;
+  }
+    span{
+      color: goldenrod;
+  }
+  h1{
+      color: rgb(2, 2, 2);
+  }
+  h3 {
+      color: rgb(12, 12, 12);
+      font-weight: 600;
+      font-size: smaller;
+  }
+  #boxmodel {
+       border: rgb(7, 7, 7);
+     text-align: center;
+     background-image: linear-gradient(to right, gold,goldenrod);
+     border-radius: 5px;
+    
+     padding: 10px;
+     margin-bottom: 5px;
+     width: 120px;
+     height: fit-content;
+     color: #221d2c;
+     font-weight: bold;
+     text-rendering: auto;
+     cursor: pointer;
+     outline: none;
+     font-size: 15px;
+  }
+
+  .boxmodel2 {
+      border: rgb(7, 7, 7);
+     text-align: center;
+     background-image: linear-gradient(to right, rgb(241, 241, 238),rgb(253, 253, 251));
+     opacity: 0.8;
+     border-radius: 10px;
+     
+     width: 80%;
+     height: fit-content;
+     color: #221d2c;
+     font-weight: bold;
+     text-rendering: auto;
+     cursor: pointer;
+     outline: none;
+     font-size: 15px;
+     
+  }
+    #boxmodel3 {
+       border: rgb(7, 7, 7);
+     text-align: center;
+     background-image: linear-gradient(to right, gold,goldenrod);
+     border-radius: 20px;
+     padding: 10px;
+     width: 120px;
+     height: fit-content;
+     color: #221d2c;
+     font-weight: bold;
+     text-rendering: auto;
+     cursor: pointer;
+     outline: none;
+     font-size: 15px;
+  }
+  #boxmodel4 {
+       
+    border-style: dotted;
+     text-align: center;
+     background-color: transparent;
+     border-radius: 20px;
+     padding: 10px;
+     width: fit-content;
+     height: fit-content;
+     color: #f0ba0b;
+     font-weight: bold;
+     text-rendering: auto;
+     cursor: pointer;
+     outline: none;
+     font-size: 15px;
+  }
+  .w-100 {
+      
+      width: 100%;
+      min-height: 100vh;
+  }
+.carousel-item {
+  
+    background: no-repeat center center scroll ;
+    background-size: contain;
+    height: 100vh;
+    min-height: fit-content;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.carousel-caption {
+    position: fixed;
+    font-size: smaller;
+    top: 35%;
+    justify-items: center;
+    padding-bottom: 10px;
+    left: 11%;
+    
+   
+    
+}
+.carousel-caption h5 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: overline;
+    
+}
+.carousel-caption p {
+    width: 75%;
+    max-width: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px ;
+} 
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: goldenrod;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;  
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font: caption;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: goldenrod;
+    font: caption;
+}
+.carousel-indicators li {
+    display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: relative;
+
+
+}
+.carousel-indicators .active {
+ width: 12px;
+ height: 12px;
+ margin-bottom: 10px;
+ background-color: #fff;
+}
+.carousel-indicators{
+width: fit-content;
+height: fit-content;
+top: 59%;
+left: 45%;
+right: unset;
+bottom: unset;
+margin-right: unset;
+margin-left: unset;
+position: fixed;
+ vertical-align: middle;
+ float: none;
+ margin-left: 0;
+ margin-right: 0;
+}
+ 
+
+
